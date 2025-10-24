@@ -1,0 +1,26 @@
+# Compiled C++ files
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+
+# CMake / build directories
+build/
+cmake-build-debug/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# VSCode settings
+.vscode/
+
+# Data 
+*.csv
