@@ -21,12 +21,12 @@ Each numerical result is compared to an **analytical solution** to compute absol
 
 ## Error Analysis & Visualization
 
-- Error data is written to `data/errors.csv`
+- Error data is written to `data/errors.csv` and not published on github
 - A Jupyter notebook is included that loads this file and visualizes the convergence behavior of the different methods
 
 ## Project Structure
-
-.
+```
+. 
 ├── src/
 │ └── main.cpp
 │ └── integration.h
@@ -36,7 +36,7 @@ Each numerical result is compared to an **analytical solution** to compute absol
 ├── plots/
 │ └── making_plots.ipynb
 └── Makefile
-
+```
 ## Purpose
 
 This project was used to experiment with:
